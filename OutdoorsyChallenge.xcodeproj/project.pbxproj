@@ -11,9 +11,19 @@
 		009BAE4F2ACAD9680033AABF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009BAE4E2ACAD9680033AABF /* ContentView.swift */; };
 		009BAE512ACAD9690033AABF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 009BAE502ACAD9690033AABF /* Assets.xcassets */; };
 		009BAE542ACAD9690033AABF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 009BAE532ACAD9690033AABF /* Preview Assets.xcassets */; };
-		009BAE5E2ACAD9690033AABF /* OutdoorsyChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009BAE5D2ACAD9690033AABF /* OutdoorsyChallengeTests.swift */; };
 		009BAE682ACAD9690033AABF /* OutdoorsyChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009BAE672ACAD9690033AABF /* OutdoorsyChallengeUITests.swift */; };
 		009BAE6A2ACAD9690033AABF /* OutdoorsyChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009BAE692ACAD9690033AABF /* OutdoorsyChallengeUITestsLaunchTests.swift */; };
+		009BAE772ACADCC80033AABF /* RequestMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009BAE762ACADCC80033AABF /* RequestMethod.swift */; };
+		009BAE7A2ACADD140033AABF /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009BAE792ACADD140033AABF /* HTTPClient.swift */; };
+		009BAE7C2ACADDE00033AABF /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009BAE7B2ACADDE00033AABF /* Endpoint.swift */; };
+		009BAE7E2ACADF720033AABF /* NetworkingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009BAE7D2ACADF720033AABF /* NetworkingError.swift */; };
+		009BAE802ACAE0890033AABF /* RentalsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009BAE7F2ACAE0890033AABF /* RentalsService.swift */; };
+		009BAE852ACAE42F0033AABF /* RentalsEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009BAE842ACAE42F0033AABF /* RentalsEndpoint.swift */; };
+		009BAE872ACAE4BE0033AABF /* RentalsEndpointTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009BAE862ACAE4BE0033AABF /* RentalsEndpointTest.swift */; };
+		009BAE892ACB02610033AABF /* RentalsResponseDTOs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009BAE882ACB02610033AABF /* RentalsResponseDTOs.swift */; };
+		009BAE8B2ACB0AA60033AABF /* RentalPresentationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009BAE8A2ACB0AA60033AABF /* RentalPresentationModel.swift */; };
+		009BAE8F2ACB13400033AABF /* HTTPClientTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009BAE8E2ACB13400033AABF /* HTTPClientTest.swift */; };
+		009BAE932ACB16C40033AABF /* URLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009BAE922ACB16C40033AABF /* URLSession.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,10 +50,20 @@
 		009BAE502ACAD9690033AABF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		009BAE532ACAD9690033AABF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		009BAE592ACAD9690033AABF /* OutdoorsyChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OutdoorsyChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		009BAE5D2ACAD9690033AABF /* OutdoorsyChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutdoorsyChallengeTests.swift; sourceTree = "<group>"; };
 		009BAE632ACAD9690033AABF /* OutdoorsyChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OutdoorsyChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		009BAE672ACAD9690033AABF /* OutdoorsyChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutdoorsyChallengeUITests.swift; sourceTree = "<group>"; };
 		009BAE692ACAD9690033AABF /* OutdoorsyChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutdoorsyChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		009BAE762ACADCC80033AABF /* RequestMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestMethod.swift; sourceTree = "<group>"; };
+		009BAE792ACADD140033AABF /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		009BAE7B2ACADDE00033AABF /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		009BAE7D2ACADF720033AABF /* NetworkingError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingError.swift; sourceTree = "<group>"; };
+		009BAE7F2ACAE0890033AABF /* RentalsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentalsService.swift; sourceTree = "<group>"; };
+		009BAE842ACAE42F0033AABF /* RentalsEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentalsEndpoint.swift; sourceTree = "<group>"; };
+		009BAE862ACAE4BE0033AABF /* RentalsEndpointTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentalsEndpointTest.swift; sourceTree = "<group>"; };
+		009BAE882ACB02610033AABF /* RentalsResponseDTOs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentalsResponseDTOs.swift; sourceTree = "<group>"; };
+		009BAE8A2ACB0AA60033AABF /* RentalPresentationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentalPresentationModel.swift; sourceTree = "<group>"; };
+		009BAE8E2ACB13400033AABF /* HTTPClientTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClientTest.swift; sourceTree = "<group>"; };
+		009BAE922ACB16C40033AABF /* URLSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSession.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +116,8 @@
 			children = (
 				009BAE4C2ACAD9680033AABF /* OutdoorsyChallengeApp.swift */,
 				009BAE4E2ACAD9680033AABF /* ContentView.swift */,
+				009BAE8C2ACB0AAB0033AABF /* Model */,
+				009BAE782ACADCCE0033AABF /* Networking */,
 				009BAE502ACAD9690033AABF /* Assets.xcassets */,
 				009BAE522ACAD9690033AABF /* Preview Content */,
 			);
@@ -113,7 +135,7 @@
 		009BAE5C2ACAD9690033AABF /* OutdoorsyChallengeTests */ = {
 			isa = PBXGroup;
 			children = (
-				009BAE5D2ACAD9690033AABF /* OutdoorsyChallengeTests.swift */,
+				009BAE942ACB1B350033AABF /* Networking */,
 			);
 			path = OutdoorsyChallengeTests;
 			sourceTree = "<group>";
@@ -125,6 +147,54 @@
 				009BAE692ACAD9690033AABF /* OutdoorsyChallengeUITestsLaunchTests.swift */,
 			);
 			path = OutdoorsyChallengeUITests;
+			sourceTree = "<group>";
+		};
+		009BAE782ACADCCE0033AABF /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				009BAE812ACAE3DA0033AABF /* RentalsService */,
+				009BAE8D2ACB0E7C0033AABF /* HTTPClient */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		009BAE812ACAE3DA0033AABF /* RentalsService */ = {
+			isa = PBXGroup;
+			children = (
+				009BAE7F2ACAE0890033AABF /* RentalsService.swift */,
+				009BAE842ACAE42F0033AABF /* RentalsEndpoint.swift */,
+			);
+			path = RentalsService;
+			sourceTree = "<group>";
+		};
+		009BAE8C2ACB0AAB0033AABF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				009BAE882ACB02610033AABF /* RentalsResponseDTOs.swift */,
+				009BAE8A2ACB0AA60033AABF /* RentalPresentationModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		009BAE8D2ACB0E7C0033AABF /* HTTPClient */ = {
+			isa = PBXGroup;
+			children = (
+				009BAE922ACB16C40033AABF /* URLSession.swift */,
+				009BAE792ACADD140033AABF /* HTTPClient.swift */,
+				009BAE7B2ACADDE00033AABF /* Endpoint.swift */,
+				009BAE762ACADCC80033AABF /* RequestMethod.swift */,
+				009BAE7D2ACADF720033AABF /* NetworkingError.swift */,
+			);
+			path = HTTPClient;
+			sourceTree = "<group>";
+		};
+		009BAE942ACB1B350033AABF /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				009BAE8E2ACB13400033AABF /* HTTPClientTest.swift */,
+				009BAE862ACAE4BE0033AABF /* RentalsEndpointTest.swift */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +327,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				009BAE8B2ACB0AA60033AABF /* RentalPresentationModel.swift in Sources */,
 				009BAE4F2ACAD9680033AABF /* ContentView.swift in Sources */,
+				009BAE932ACB16C40033AABF /* URLSession.swift in Sources */,
+				009BAE772ACADCC80033AABF /* RequestMethod.swift in Sources */,
+				009BAE852ACAE42F0033AABF /* RentalsEndpoint.swift in Sources */,
+				009BAE7A2ACADD140033AABF /* HTTPClient.swift in Sources */,
+				009BAE802ACAE0890033AABF /* RentalsService.swift in Sources */,
+				009BAE892ACB02610033AABF /* RentalsResponseDTOs.swift in Sources */,
 				009BAE4D2ACAD9680033AABF /* OutdoorsyChallengeApp.swift in Sources */,
+				009BAE7E2ACADF720033AABF /* NetworkingError.swift in Sources */,
+				009BAE7C2ACADDE00033AABF /* Endpoint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +345,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				009BAE5E2ACAD9690033AABF /* OutdoorsyChallengeTests.swift in Sources */,
+				009BAE8F2ACB13400033AABF /* HTTPClientTest.swift in Sources */,
+				009BAE872ACAE4BE0033AABF /* RentalsEndpointTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

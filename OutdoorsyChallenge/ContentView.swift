@@ -15,6 +15,15 @@ struct ContentView: View {
                 .foregroundStyle(.tint)
             Text("Hello, world!")
         }
+        .onAppear{
+            #warning("Work in progres")
+            Task {
+                let HTTPClient = HTTPClient(urlSession: URLSession.shared)
+                let rentalsService = RentalsService(client: HTTPClient)
+                let result = try await rentalsService.fetchRentals(filterKeywords: ["trailer", "camper"], pageLimit: 8)
+                print(result)
+            }
+        }
         .padding()
     }
 }
