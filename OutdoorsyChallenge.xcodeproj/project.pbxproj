@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		009BAE4D2ACAD9680033AABF /* OutdoorsyChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009BAE4C2ACAD9680033AABF /* OutdoorsyChallengeApp.swift */; };
+		009BAE4F2ACAD9680033AABF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009BAE4E2ACAD9680033AABF /* ContentView.swift */; };
+		009BAE512ACAD9690033AABF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 009BAE502ACAD9690033AABF /* Assets.xcassets */; };
+		009BAE542ACAD9690033AABF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 009BAE532ACAD9690033AABF /* Preview Assets.xcassets */; };
+		009BAE5E2ACAD9690033AABF /* OutdoorsyChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009BAE5D2ACAD9690033AABF /* OutdoorsyChallengeTests.swift */; };
+		009BAE682ACAD9690033AABF /* OutdoorsyChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009BAE672ACAD9690033AABF /* OutdoorsyChallengeUITests.swift */; };
+		009BAE6A2ACAD9690033AABF /* OutdoorsyChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009BAE692ACAD9690033AABF /* OutdoorsyChallengeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		009BAE5A2ACAD9690033AABF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 009BAE412ACAD9680033AABF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 009BAE482ACAD9680033AABF;
+			remoteInfo = OutdoorsyChallenge;
+		};
+		009BAE642ACAD9690033AABF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 009BAE412ACAD9680033AABF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 009BAE482ACAD9680033AABF;
+			remoteInfo = OutdoorsyChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		009BAE492ACAD9680033AABF /* OutdoorsyChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OutdoorsyChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		009BAE4C2ACAD9680033AABF /* OutdoorsyChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutdoorsyChallengeApp.swift; sourceTree = "<group>"; };
+		009BAE4E2ACAD9680033AABF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		009BAE502ACAD9690033AABF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		009BAE532ACAD9690033AABF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		009BAE592ACAD9690033AABF /* OutdoorsyChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OutdoorsyChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		009BAE5D2ACAD9690033AABF /* OutdoorsyChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutdoorsyChallengeTests.swift; sourceTree = "<group>"; };
+		009BAE632ACAD9690033AABF /* OutdoorsyChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OutdoorsyChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		009BAE672ACAD9690033AABF /* OutdoorsyChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutdoorsyChallengeUITests.swift; sourceTree = "<group>"; };
+		009BAE692ACAD9690033AABF /* OutdoorsyChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutdoorsyChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		009BAE462ACAD9680033AABF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		009BAE562ACAD9690033AABF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		009BAE602ACAD9690033AABF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		009BAE402ACAD9680033AABF = {
+			isa = PBXGroup;
+			children = (
+				009BAE4B2ACAD9680033AABF /* OutdoorsyChallenge */,
+				009BAE5C2ACAD9690033AABF /* OutdoorsyChallengeTests */,
+				009BAE662ACAD9690033AABF /* OutdoorsyChallengeUITests */,
+				009BAE4A2ACAD9680033AABF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		009BAE4A2ACAD9680033AABF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				009BAE492ACAD9680033AABF /* OutdoorsyChallenge.app */,
+				009BAE592ACAD9690033AABF /* OutdoorsyChallengeTests.xctest */,
+				009BAE632ACAD9690033AABF /* OutdoorsyChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		009BAE4B2ACAD9680033AABF /* OutdoorsyChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				009BAE4C2ACAD9680033AABF /* OutdoorsyChallengeApp.swift */,
+				009BAE4E2ACAD9680033AABF /* ContentView.swift */,
+				009BAE502ACAD9690033AABF /* Assets.xcassets */,
+				009BAE522ACAD9690033AABF /* Preview Content */,
+			);
+			path = OutdoorsyChallenge;
+			sourceTree = "<group>";
+		};
+		009BAE522ACAD9690033AABF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				009BAE532ACAD9690033AABF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		009BAE5C2ACAD9690033AABF /* OutdoorsyChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				009BAE5D2ACAD9690033AABF /* OutdoorsyChallengeTests.swift */,
+			);
+			path = OutdoorsyChallengeTests;
+			sourceTree = "<group>";
+		};
+		009BAE662ACAD9690033AABF /* OutdoorsyChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				009BAE672ACAD9690033AABF /* OutdoorsyChallengeUITests.swift */,
+				009BAE692ACAD9690033AABF /* OutdoorsyChallengeUITestsLaunchTests.swift */,
+			);
+			path = OutdoorsyChallengeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		009BAE482ACAD9680033AABF /* OutdoorsyChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 009BAE6D2ACAD9690033AABF /* Build configuration list for PBXNativeTarget "OutdoorsyChallenge" */;
+			buildPhases = (
+				009BAE452ACAD9680033AABF /* Sources */,
+				009BAE462ACAD9680033AABF /* Frameworks */,
+				009BAE472ACAD9680033AABF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OutdoorsyChallenge;
+			productName = OutdoorsyChallenge;
+			productReference = 009BAE492ACAD9680033AABF /* OutdoorsyChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		009BAE582ACAD9690033AABF /* OutdoorsyChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 009BAE702ACAD9690033AABF /* Build configuration list for PBXNativeTarget "OutdoorsyChallengeTests" */;
+			buildPhases = (
+				009BAE552ACAD9690033AABF /* Sources */,
+				009BAE562ACAD9690033AABF /* Frameworks */,
+				009BAE572ACAD9690033AABF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				009BAE5B2ACAD9690033AABF /* PBXTargetDependency */,
+			);
+			name = OutdoorsyChallengeTests;
+			productName = OutdoorsyChallengeTests;
+			productReference = 009BAE592ACAD9690033AABF /* OutdoorsyChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		009BAE622ACAD9690033AABF /* OutdoorsyChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 009BAE732ACAD9690033AABF /* Build configuration list for PBXNativeTarget "OutdoorsyChallengeUITests" */;
+			buildPhases = (
+				009BAE5F2ACAD9690033AABF /* Sources */,
+				009BAE602ACAD9690033AABF /* Frameworks */,
+				009BAE612ACAD9690033AABF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				009BAE652ACAD9690033AABF /* PBXTargetDependency */,
+			);
+			name = OutdoorsyChallengeUITests;
+			productName = OutdoorsyChallengeUITests;
+			productReference = 009BAE632ACAD9690033AABF /* OutdoorsyChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		009BAE412ACAD9680033AABF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					009BAE482ACAD9680033AABF = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					009BAE582ACAD9690033AABF = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 009BAE482ACAD9680033AABF;
+					};
+					009BAE622ACAD9690033AABF = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 009BAE482ACAD9680033AABF;
+					};
+				};
+			};
+			buildConfigurationList = 009BAE442ACAD9680033AABF /* Build configuration list for PBXProject "OutdoorsyChallenge" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 009BAE402ACAD9680033AABF;
+			productRefGroup = 009BAE4A2ACAD9680033AABF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				009BAE482ACAD9680033AABF /* OutdoorsyChallenge */,
+				009BAE582ACAD9690033AABF /* OutdoorsyChallengeTests */,
+				009BAE622ACAD9690033AABF /* OutdoorsyChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		009BAE472ACAD9680033AABF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				009BAE542ACAD9690033AABF /* Preview Assets.xcassets in Resources */,
+				009BAE512ACAD9690033AABF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		009BAE572ACAD9690033AABF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		009BAE612ACAD9690033AABF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		009BAE452ACAD9680033AABF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				009BAE4F2ACAD9680033AABF /* ContentView.swift in Sources */,
+				009BAE4D2ACAD9680033AABF /* OutdoorsyChallengeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		009BAE552ACAD9690033AABF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				009BAE5E2ACAD9690033AABF /* OutdoorsyChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		009BAE5F2ACAD9690033AABF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				009BAE682ACAD9690033AABF /* OutdoorsyChallengeUITests.swift in Sources */,
+				009BAE6A2ACAD9690033AABF /* OutdoorsyChallengeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		009BAE5B2ACAD9690033AABF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 009BAE482ACAD9680033AABF /* OutdoorsyChallenge */;
+			targetProxy = 009BAE5A2ACAD9690033AABF /* PBXContainerItemProxy */;
+		};
+		009BAE652ACAD9690033AABF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 009BAE482ACAD9680033AABF /* OutdoorsyChallenge */;
+			targetProxy = 009BAE642ACAD9690033AABF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		009BAE6B2ACAD9690033AABF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		009BAE6C2ACAD9690033AABF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		009BAE6E2ACAD9690033AABF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OutdoorsyChallenge/Preview Content\"";
+				DEVELOPMENT_TEAM = R3B3F87JU6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.my.OutdoorsyChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		009BAE6F2ACAD9690033AABF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OutdoorsyChallenge/Preview Content\"";
+				DEVELOPMENT_TEAM = R3B3F87JU6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.my.OutdoorsyChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		009BAE712ACAD9690033AABF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R3B3F87JU6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.my.OutdoorsyChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OutdoorsyChallenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OutdoorsyChallenge";
+			};
+			name = Debug;
+		};
+		009BAE722ACAD9690033AABF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R3B3F87JU6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.my.OutdoorsyChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OutdoorsyChallenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OutdoorsyChallenge";
+			};
+			name = Release;
+		};
+		009BAE742ACAD9690033AABF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R3B3F87JU6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.my.OutdoorsyChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OutdoorsyChallenge;
+			};
+			name = Debug;
+		};
+		009BAE752ACAD9690033AABF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R3B3F87JU6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.my.OutdoorsyChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OutdoorsyChallenge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		009BAE442ACAD9680033AABF /* Build configuration list for PBXProject "OutdoorsyChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				009BAE6B2ACAD9690033AABF /* Debug */,
+				009BAE6C2ACAD9690033AABF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		009BAE6D2ACAD9690033AABF /* Build configuration list for PBXNativeTarget "OutdoorsyChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				009BAE6E2ACAD9690033AABF /* Debug */,
+				009BAE6F2ACAD9690033AABF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		009BAE702ACAD9690033AABF /* Build configuration list for PBXNativeTarget "OutdoorsyChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				009BAE712ACAD9690033AABF /* Debug */,
+				009BAE722ACAD9690033AABF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		009BAE732ACAD9690033AABF /* Build configuration list for PBXNativeTarget "OutdoorsyChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				009BAE742ACAD9690033AABF /* Debug */,
+				009BAE752ACAD9690033AABF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 009BAE412ACAD9680033AABF /* Project object */;
+}
