@@ -29,7 +29,7 @@ final class HTTPClientTest: XCTestCase {
         httpClient = .init(urlSession: urlSession)
     }
 
-    #warning("Add more test for the failure scenarios")
+   // TODO: Add more test for the failure scenarios
     
     func testSendRequestURLEndpoint() async throws {
         var endpoint = EndpointMock()

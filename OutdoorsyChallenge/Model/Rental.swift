@@ -1,5 +1,5 @@
 //
-//  RentalPresentationModel.swift
+//  Rental.swift
 //  OutdoorsyChallenge
 //
 //  Created by Gabriela Bakalova on 2.10.23.
@@ -16,6 +16,8 @@ struct Rental {
     let imageURL: URL?
     let unavailable: Bool
 }
+
+extension Rental: Identifiable { }
 
 extension Rental {
     

@@ -40,8 +40,7 @@ extension RentalsService.RentalDTO: Decodable {
     }
     
     init(from decoder: Decoder) throws {
-        
-        #warning("This is in case all keys are required")
+        // TODO: Handle scenario where some of the keys might be missing?
         let container = try decoder.container(keyedBy: RentalsService.RentalDTO.RootCodingKeys.self)
         id = try container.decode(String.self, forKey: .id)
         

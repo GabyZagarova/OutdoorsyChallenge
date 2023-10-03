@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		009BAE4D2ACAD9680033AABF /* OutdoorsyChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009BAE4C2ACAD9680033AABF /* OutdoorsyChallengeApp.swift */; };
-		009BAE4F2ACAD9680033AABF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009BAE4E2ACAD9680033AABF /* ContentView.swift */; };
 		009BAE512ACAD9690033AABF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 009BAE502ACAD9690033AABF /* Assets.xcassets */; };
 		009BAE542ACAD9690033AABF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 009BAE532ACAD9690033AABF /* Preview Assets.xcassets */; };
 		009BAE682ACAD9690033AABF /* OutdoorsyChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009BAE672ACAD9690033AABF /* OutdoorsyChallengeUITests.swift */; };
@@ -21,9 +20,21 @@
 		009BAE852ACAE42F0033AABF /* RentalsEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009BAE842ACAE42F0033AABF /* RentalsEndpoint.swift */; };
 		009BAE872ACAE4BE0033AABF /* RentalsEndpointTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009BAE862ACAE4BE0033AABF /* RentalsEndpointTest.swift */; };
 		009BAE892ACB02610033AABF /* RentalsResponseDTOs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009BAE882ACB02610033AABF /* RentalsResponseDTOs.swift */; };
-		009BAE8B2ACB0AA60033AABF /* RentalPresentationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009BAE8A2ACB0AA60033AABF /* RentalPresentationModel.swift */; };
+		009BAE8B2ACB0AA60033AABF /* Rental.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009BAE8A2ACB0AA60033AABF /* Rental.swift */; };
 		009BAE8F2ACB13400033AABF /* HTTPClientTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009BAE8E2ACB13400033AABF /* HTTPClientTest.swift */; };
 		009BAE932ACB16C40033AABF /* URLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009BAE922ACB16C40033AABF /* URLSession.swift */; };
+		009BAE982ACBFB3A0033AABF /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009BAE972ACBFB3A0033AABF /* InputView.swift */; };
+		009BAE9A2ACBFB4A0033AABF /* RentalItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009BAE992ACBFB4A0033AABF /* RentalItemView.swift */; };
+		009BAE9C2ACBFB740033AABF /* UITheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009BAE9B2ACBFB740033AABF /* UITheme.swift */; };
+		009BAE9F2ACC045F0033AABF /* TitleSubtitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009BAE9E2ACC045F0033AABF /* TitleSubtitleView.swift */; };
+		009BAEA32ACC05FC0033AABF /* RentalAsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009BAEA22ACC05FC0033AABF /* RentalAsyncImageView.swift */; };
+		009BAEA52ACC12AC0033AABF /* SearchRentalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009BAEA42ACC12AC0033AABF /* SearchRentalsView.swift */; };
+		009BAEA92ACC12D10033AABF /* SearchRentalsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009BAEA82ACC12D10033AABF /* SearchRentalsViewModel.swift */; };
+		009BAEAC2ACC1C0D0033AABF /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009BAEAB2ACC1C0D0033AABF /* LoadingView.swift */; };
+		009BAEAE2ACC1D080033AABF /* GenericErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009BAEAD2ACC1D080033AABF /* GenericErrorView.swift */; };
+		009BAEB02ACC32920033AABF /* SearchForRentalsFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009BAEAF2ACC32920033AABF /* SearchForRentalsFlow.swift */; };
+		009BAEB22ACC35020033AABF /* ConditionalModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009BAEB12ACC35020033AABF /* ConditionalModifier.swift */; };
+		009BAEB82ACC3EE90033AABF /* TextFieldClearButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009BAEB72ACC3EE90033AABF /* TextFieldClearButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +57,6 @@
 /* Begin PBXFileReference section */
 		009BAE492ACAD9680033AABF /* OutdoorsyChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OutdoorsyChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		009BAE4C2ACAD9680033AABF /* OutdoorsyChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutdoorsyChallengeApp.swift; sourceTree = "<group>"; };
-		009BAE4E2ACAD9680033AABF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		009BAE502ACAD9690033AABF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		009BAE532ACAD9690033AABF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		009BAE592ACAD9690033AABF /* OutdoorsyChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OutdoorsyChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,9 +71,21 @@
 		009BAE842ACAE42F0033AABF /* RentalsEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentalsEndpoint.swift; sourceTree = "<group>"; };
 		009BAE862ACAE4BE0033AABF /* RentalsEndpointTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentalsEndpointTest.swift; sourceTree = "<group>"; };
 		009BAE882ACB02610033AABF /* RentalsResponseDTOs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentalsResponseDTOs.swift; sourceTree = "<group>"; };
-		009BAE8A2ACB0AA60033AABF /* RentalPresentationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentalPresentationModel.swift; sourceTree = "<group>"; };
+		009BAE8A2ACB0AA60033AABF /* Rental.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rental.swift; sourceTree = "<group>"; };
 		009BAE8E2ACB13400033AABF /* HTTPClientTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClientTest.swift; sourceTree = "<group>"; };
 		009BAE922ACB16C40033AABF /* URLSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSession.swift; sourceTree = "<group>"; };
+		009BAE972ACBFB3A0033AABF /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
+		009BAE992ACBFB4A0033AABF /* RentalItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentalItemView.swift; sourceTree = "<group>"; };
+		009BAE9B2ACBFB740033AABF /* UITheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITheme.swift; sourceTree = "<group>"; };
+		009BAE9E2ACC045F0033AABF /* TitleSubtitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleSubtitleView.swift; sourceTree = "<group>"; };
+		009BAEA22ACC05FC0033AABF /* RentalAsyncImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentalAsyncImageView.swift; sourceTree = "<group>"; };
+		009BAEA42ACC12AC0033AABF /* SearchRentalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRentalsView.swift; sourceTree = "<group>"; };
+		009BAEA82ACC12D10033AABF /* SearchRentalsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRentalsViewModel.swift; sourceTree = "<group>"; };
+		009BAEAB2ACC1C0D0033AABF /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		009BAEAD2ACC1D080033AABF /* GenericErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericErrorView.swift; sourceTree = "<group>"; };
+		009BAEAF2ACC32920033AABF /* SearchForRentalsFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchForRentalsFlow.swift; sourceTree = "<group>"; };
+		009BAEB12ACC35020033AABF /* ConditionalModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionalModifier.swift; sourceTree = "<group>"; };
+		009BAEB72ACC3EE90033AABF /* TextFieldClearButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldClearButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,10 +137,12 @@
 			isa = PBXGroup;
 			children = (
 				009BAE4C2ACAD9680033AABF /* OutdoorsyChallengeApp.swift */,
-				009BAE4E2ACAD9680033AABF /* ContentView.swift */,
+				009BAE9D2ACBFCD20033AABF /* Design */,
 				009BAE8C2ACB0AAB0033AABF /* Model */,
 				009BAE782ACADCCE0033AABF /* Networking */,
-				009BAE502ACAD9690033AABF /* Assets.xcassets */,
+				009BAEAA2ACC15260033AABF /* Search Rentals */,
+				009BAEB32ACC350E0033AABF /* Utils */,
+				009BAEB42ACC351C0033AABF /* Resources */,
 				009BAE522ACAD9690033AABF /* Preview Content */,
 			);
 			path = OutdoorsyChallenge;
@@ -171,7 +195,7 @@
 			isa = PBXGroup;
 			children = (
 				009BAE882ACB02610033AABF /* RentalsResponseDTOs.swift */,
-				009BAE8A2ACB0AA60033AABF /* RentalPresentationModel.swift */,
+				009BAE8A2ACB0AA60033AABF /* Rental.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -195,6 +219,71 @@
 				009BAE862ACAE4BE0033AABF /* RentalsEndpointTest.swift */,
 			);
 			path = Networking;
+			sourceTree = "<group>";
+		};
+		009BAE9D2ACBFCD20033AABF /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				00E239682ACC4783005D79C6 /* System */,
+				009BAEA12ACC05630033AABF /* Moleculs */,
+				009BAEA02ACC05590033AABF /* Atoms */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		009BAEA02ACC05590033AABF /* Atoms */ = {
+			isa = PBXGroup;
+			children = (
+				009BAE9E2ACC045F0033AABF /* TitleSubtitleView.swift */,
+				009BAEA22ACC05FC0033AABF /* RentalAsyncImageView.swift */,
+				009BAEAB2ACC1C0D0033AABF /* LoadingView.swift */,
+				009BAEAD2ACC1D080033AABF /* GenericErrorView.swift */,
+				009BAEB72ACC3EE90033AABF /* TextFieldClearButton.swift */,
+			);
+			path = Atoms;
+			sourceTree = "<group>";
+		};
+		009BAEA12ACC05630033AABF /* Moleculs */ = {
+			isa = PBXGroup;
+			children = (
+				009BAE992ACBFB4A0033AABF /* RentalItemView.swift */,
+				009BAE972ACBFB3A0033AABF /* InputView.swift */,
+			);
+			path = Moleculs;
+			sourceTree = "<group>";
+		};
+		009BAEAA2ACC15260033AABF /* Search Rentals */ = {
+			isa = PBXGroup;
+			children = (
+				009BAEAF2ACC32920033AABF /* SearchForRentalsFlow.swift */,
+				009BAEA42ACC12AC0033AABF /* SearchRentalsView.swift */,
+				009BAEA82ACC12D10033AABF /* SearchRentalsViewModel.swift */,
+			);
+			path = "Search Rentals";
+			sourceTree = "<group>";
+		};
+		009BAEB32ACC350E0033AABF /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				009BAEB12ACC35020033AABF /* ConditionalModifier.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		009BAEB42ACC351C0033AABF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				009BAE502ACAD9690033AABF /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		00E239682ACC4783005D79C6 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				009BAE9B2ACBFB740033AABF /* UITheme.swift */,
+			);
+			path = System;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -327,16 +416,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				009BAE8B2ACB0AA60033AABF /* RentalPresentationModel.swift in Sources */,
-				009BAE4F2ACAD9680033AABF /* ContentView.swift in Sources */,
+				009BAEA92ACC12D10033AABF /* SearchRentalsViewModel.swift in Sources */,
+				009BAE8B2ACB0AA60033AABF /* Rental.swift in Sources */,
 				009BAE932ACB16C40033AABF /* URLSession.swift in Sources */,
+				009BAEB02ACC32920033AABF /* SearchForRentalsFlow.swift in Sources */,
+				009BAEA52ACC12AC0033AABF /* SearchRentalsView.swift in Sources */,
 				009BAE772ACADCC80033AABF /* RequestMethod.swift in Sources */,
+				009BAE9C2ACBFB740033AABF /* UITheme.swift in Sources */,
 				009BAE852ACAE42F0033AABF /* RentalsEndpoint.swift in Sources */,
 				009BAE7A2ACADD140033AABF /* HTTPClient.swift in Sources */,
+				009BAEB82ACC3EE90033AABF /* TextFieldClearButton.swift in Sources */,
+				009BAEAE2ACC1D080033AABF /* GenericErrorView.swift in Sources */,
+				009BAEB22ACC35020033AABF /* ConditionalModifier.swift in Sources */,
+				009BAEA32ACC05FC0033AABF /* RentalAsyncImageView.swift in Sources */,
 				009BAE802ACAE0890033AABF /* RentalsService.swift in Sources */,
 				009BAE892ACB02610033AABF /* RentalsResponseDTOs.swift in Sources */,
+				009BAE9F2ACC045F0033AABF /* TitleSubtitleView.swift in Sources */,
+				009BAE9A2ACBFB4A0033AABF /* RentalItemView.swift in Sources */,
 				009BAE4D2ACAD9680033AABF /* OutdoorsyChallengeApp.swift in Sources */,
+				009BAE982ACBFB3A0033AABF /* InputView.swift in Sources */,
 				009BAE7E2ACADF720033AABF /* NetworkingError.swift in Sources */,
+				009BAEAC2ACC1C0D0033AABF /* LoadingView.swift in Sources */,
 				009BAE7C2ACADDE00033AABF /* Endpoint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -508,8 +608,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -537,8 +636,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
