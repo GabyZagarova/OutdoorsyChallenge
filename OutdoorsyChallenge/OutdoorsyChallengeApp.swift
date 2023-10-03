@@ -11,7 +11,7 @@ import SwiftUI
 struct OutdoorsyChallengeApp: App {
     var body: some Scene {
         WindowGroup {
-            Text("Hello!")
+            SearchRentalsFlow()
         }
     }
 }

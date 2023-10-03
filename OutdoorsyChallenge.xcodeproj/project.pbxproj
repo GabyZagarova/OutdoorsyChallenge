@@ -28,13 +28,21 @@
 		009BAE9C2ACBFB740033AABF /* UITheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009BAE9B2ACBFB740033AABF /* UITheme.swift */; };
 		009BAE9F2ACC045F0033AABF /* TitleSubtitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009BAE9E2ACC045F0033AABF /* TitleSubtitleView.swift */; };
 		009BAEA32ACC05FC0033AABF /* RentalAsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009BAEA22ACC05FC0033AABF /* RentalAsyncImageView.swift */; };
-		009BAEA52ACC12AC0033AABF /* SearchRentalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009BAEA42ACC12AC0033AABF /* SearchRentalsView.swift */; };
-		009BAEA92ACC12D10033AABF /* SearchRentalsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009BAEA82ACC12D10033AABF /* SearchRentalsViewModel.swift */; };
 		009BAEAC2ACC1C0D0033AABF /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009BAEAB2ACC1C0D0033AABF /* LoadingView.swift */; };
 		009BAEAE2ACC1D080033AABF /* GenericErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009BAEAD2ACC1D080033AABF /* GenericErrorView.swift */; };
-		009BAEB02ACC32920033AABF /* SearchForRentalsFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009BAEAF2ACC32920033AABF /* SearchForRentalsFlow.swift */; };
 		009BAEB22ACC35020033AABF /* ConditionalModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009BAEB12ACC35020033AABF /* ConditionalModifier.swift */; };
 		009BAEB82ACC3EE90033AABF /* TextFieldClearButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009BAEB72ACC3EE90033AABF /* TextFieldClearButton.swift */; };
+		00E2396E2ACC4D4E005D79C6 /* SearchRentalsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E2396B2ACC4D4E005D79C6 /* SearchRentalsViewModel.swift */; };
+		00E2396F2ACC4D4E005D79C6 /* SearchRentalsFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E2396C2ACC4D4E005D79C6 /* SearchRentalsFlow.swift */; };
+		00E239702ACC4D4E005D79C6 /* SearchRentalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E2396D2ACC4D4E005D79C6 /* SearchRentalsView.swift */; };
+		00E239732ACC4D9B005D79C6 /* SearchRentalsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E239722ACC4D9B005D79C6 /* SearchRentalsViewModelTests.swift */; };
+		00E239762ACC4E7C005D79C6 /* URLSessionMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E239752ACC4E7C005D79C6 /* URLSessionMock.swift */; };
+		00E239782ACC4E9E005D79C6 /* HTTPClientMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E239772ACC4E9E005D79C6 /* HTTPClientMock.swift */; };
+		00E2397A2ACC53D8005D79C6 /* RentalsServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E239792ACC53D8005D79C6 /* RentalsServiceTests.swift */; };
+		00E2397C2ACC53ED005D79C6 /* RentalsServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E2397B2ACC53ED005D79C6 /* RentalsServiceMock.swift */; };
+		00E2397F2ACC562C005D79C6 /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E2397E2ACC562C005D79C6 /* Random.swift */; };
+		00E239812ACC5E98005D79C6 /* StringToWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E239802ACC5E98005D79C6 /* StringToWords.swift */; };
+		00E239832ACC5EAF005D79C6 /* StringToWordsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E239822ACC5EAF005D79C6 /* StringToWordsTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,13 +87,21 @@
 		009BAE9B2ACBFB740033AABF /* UITheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITheme.swift; sourceTree = "<group>"; };
 		009BAE9E2ACC045F0033AABF /* TitleSubtitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleSubtitleView.swift; sourceTree = "<group>"; };
 		009BAEA22ACC05FC0033AABF /* RentalAsyncImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentalAsyncImageView.swift; sourceTree = "<group>"; };
-		009BAEA42ACC12AC0033AABF /* SearchRentalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRentalsView.swift; sourceTree = "<group>"; };
-		009BAEA82ACC12D10033AABF /* SearchRentalsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRentalsViewModel.swift; sourceTree = "<group>"; };
 		009BAEAB2ACC1C0D0033AABF /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		009BAEAD2ACC1D080033AABF /* GenericErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericErrorView.swift; sourceTree = "<group>"; };
-		009BAEAF2ACC32920033AABF /* SearchForRentalsFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchForRentalsFlow.swift; sourceTree = "<group>"; };
 		009BAEB12ACC35020033AABF /* ConditionalModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionalModifier.swift; sourceTree = "<group>"; };
 		009BAEB72ACC3EE90033AABF /* TextFieldClearButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldClearButton.swift; sourceTree = "<group>"; };
+		00E2396B2ACC4D4E005D79C6 /* SearchRentalsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchRentalsViewModel.swift; sourceTree = "<group>"; };
+		00E2396C2ACC4D4E005D79C6 /* SearchRentalsFlow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchRentalsFlow.swift; sourceTree = "<group>"; };
+		00E2396D2ACC4D4E005D79C6 /* SearchRentalsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchRentalsView.swift; sourceTree = "<group>"; };
+		00E239722ACC4D9B005D79C6 /* SearchRentalsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRentalsViewModelTests.swift; sourceTree = "<group>"; };
+		00E239752ACC4E7C005D79C6 /* URLSessionMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionMock.swift; sourceTree = "<group>"; };
+		00E239772ACC4E9E005D79C6 /* HTTPClientMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClientMock.swift; sourceTree = "<group>"; };
+		00E239792ACC53D8005D79C6 /* RentalsServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentalsServiceTests.swift; sourceTree = "<group>"; };
+		00E2397B2ACC53ED005D79C6 /* RentalsServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentalsServiceMock.swift; sourceTree = "<group>"; };
+		00E2397E2ACC562C005D79C6 /* Random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Random.swift; sourceTree = "<group>"; };
+		00E239802ACC5E98005D79C6 /* StringToWords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringToWords.swift; sourceTree = "<group>"; };
+		00E239822ACC5EAF005D79C6 /* StringToWordsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringToWordsTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,7 +156,8 @@
 				009BAE9D2ACBFCD20033AABF /* Design */,
 				009BAE8C2ACB0AAB0033AABF /* Model */,
 				009BAE782ACADCCE0033AABF /* Networking */,
-				009BAEAA2ACC15260033AABF /* Search Rentals */,
+				00E239712ACC4D54005D79C6 /* SearchRentalsFlow */,
+				00E239852ACC5EC8005D79C6 /* Extentions */,
 				009BAEB32ACC350E0033AABF /* Utils */,
 				009BAEB42ACC351C0033AABF /* Resources */,
 				009BAE522ACAD9690033AABF /* Preview Content */,
@@ -159,7 +176,10 @@
 		009BAE5C2ACAD9690033AABF /* OutdoorsyChallengeTests */ = {
 			isa = PBXGroup;
 			children = (
-				009BAE942ACB1B350033AABF /* Networking */,
+				00E2397D2ACC54DB005D79C6 /* MocksTests */,
+				009BAE942ACB1B350033AABF /* NetworkingTests */,
+				00E239742ACC4D9E005D79C6 /* ViewModelsTests */,
+				00E239842ACC5EBD005D79C6 /* ExtentionsTests */,
 			);
 			path = OutdoorsyChallengeTests;
 			sourceTree = "<group>";
@@ -212,13 +232,14 @@
 			path = HTTPClient;
 			sourceTree = "<group>";
 		};
-		009BAE942ACB1B350033AABF /* Networking */ = {
+		009BAE942ACB1B350033AABF /* NetworkingTests */ = {
 			isa = PBXGroup;
 			children = (
 				009BAE8E2ACB13400033AABF /* HTTPClientTest.swift */,
 				009BAE862ACAE4BE0033AABF /* RentalsEndpointTest.swift */,
+				00E239792ACC53D8005D79C6 /* RentalsServiceTests.swift */,
 			);
-			path = Networking;
+			path = NetworkingTests;
 			sourceTree = "<group>";
 		};
 		009BAE9D2ACBFCD20033AABF /* Design */ = {
@@ -252,16 +273,6 @@
 			path = Moleculs;
 			sourceTree = "<group>";
 		};
-		009BAEAA2ACC15260033AABF /* Search Rentals */ = {
-			isa = PBXGroup;
-			children = (
-				009BAEAF2ACC32920033AABF /* SearchForRentalsFlow.swift */,
-				009BAEA42ACC12AC0033AABF /* SearchRentalsView.swift */,
-				009BAEA82ACC12D10033AABF /* SearchRentalsViewModel.swift */,
-			);
-			path = "Search Rentals";
-			sourceTree = "<group>";
-		};
 		009BAEB32ACC350E0033AABF /* Utils */ = {
 			isa = PBXGroup;
 			children = (
@@ -284,6 +295,51 @@
 				009BAE9B2ACBFB740033AABF /* UITheme.swift */,
 			);
 			path = System;
+			sourceTree = "<group>";
+		};
+		00E239712ACC4D54005D79C6 /* SearchRentalsFlow */ = {
+			isa = PBXGroup;
+			children = (
+				00E2396C2ACC4D4E005D79C6 /* SearchRentalsFlow.swift */,
+				00E2396D2ACC4D4E005D79C6 /* SearchRentalsView.swift */,
+				00E2396B2ACC4D4E005D79C6 /* SearchRentalsViewModel.swift */,
+			);
+			path = SearchRentalsFlow;
+			sourceTree = "<group>";
+		};
+		00E239742ACC4D9E005D79C6 /* ViewModelsTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E239722ACC4D9B005D79C6 /* SearchRentalsViewModelTests.swift */,
+			);
+			path = ViewModelsTests;
+			sourceTree = "<group>";
+		};
+		00E2397D2ACC54DB005D79C6 /* MocksTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E239772ACC4E9E005D79C6 /* HTTPClientMock.swift */,
+				00E2397B2ACC53ED005D79C6 /* RentalsServiceMock.swift */,
+				00E239752ACC4E7C005D79C6 /* URLSessionMock.swift */,
+			);
+			path = MocksTests;
+			sourceTree = "<group>";
+		};
+		00E239842ACC5EBD005D79C6 /* ExtentionsTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E239822ACC5EAF005D79C6 /* StringToWordsTest.swift */,
+			);
+			path = ExtentionsTests;
+			sourceTree = "<group>";
+		};
+		00E239852ACC5EC8005D79C6 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				00E2397E2ACC562C005D79C6 /* Random.swift */,
+				00E239802ACC5E98005D79C6 /* StringToWords.swift */,
+			);
+			path = Extentions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -416,18 +472,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				009BAEA92ACC12D10033AABF /* SearchRentalsViewModel.swift in Sources */,
 				009BAE8B2ACB0AA60033AABF /* Rental.swift in Sources */,
 				009BAE932ACB16C40033AABF /* URLSession.swift in Sources */,
-				009BAEB02ACC32920033AABF /* SearchForRentalsFlow.swift in Sources */,
-				009BAEA52ACC12AC0033AABF /* SearchRentalsView.swift in Sources */,
+				00E2396F2ACC4D4E005D79C6 /* SearchRentalsFlow.swift in Sources */,
 				009BAE772ACADCC80033AABF /* RequestMethod.swift in Sources */,
 				009BAE9C2ACBFB740033AABF /* UITheme.swift in Sources */,
 				009BAE852ACAE42F0033AABF /* RentalsEndpoint.swift in Sources */,
 				009BAE7A2ACADD140033AABF /* HTTPClient.swift in Sources */,
+				00E239812ACC5E98005D79C6 /* StringToWords.swift in Sources */,
 				009BAEB82ACC3EE90033AABF /* TextFieldClearButton.swift in Sources */,
 				009BAEAE2ACC1D080033AABF /* GenericErrorView.swift in Sources */,
 				009BAEB22ACC35020033AABF /* ConditionalModifier.swift in Sources */,
+				00E239702ACC4D4E005D79C6 /* SearchRentalsView.swift in Sources */,
 				009BAEA32ACC05FC0033AABF /* RentalAsyncImageView.swift in Sources */,
 				009BAE802ACAE0890033AABF /* RentalsService.swift in Sources */,
 				009BAE892ACB02610033AABF /* RentalsResponseDTOs.swift in Sources */,
@@ -437,6 +493,8 @@
 				009BAE982ACBFB3A0033AABF /* InputView.swift in Sources */,
 				009BAE7E2ACADF720033AABF /* NetworkingError.swift in Sources */,
 				009BAEAC2ACC1C0D0033AABF /* LoadingView.swift in Sources */,
+				00E2397F2ACC562C005D79C6 /* Random.swift in Sources */,
+				00E2396E2ACC4D4E005D79C6 /* SearchRentalsViewModel.swift in Sources */,
 				009BAE7C2ACADDE00033AABF /* Endpoint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -445,8 +503,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00E239762ACC4E7C005D79C6 /* URLSessionMock.swift in Sources */,
 				009BAE8F2ACB13400033AABF /* HTTPClientTest.swift in Sources */,
+				00E239732ACC4D9B005D79C6 /* SearchRentalsViewModelTests.swift in Sources */,
+				00E239832ACC5EAF005D79C6 /* StringToWordsTest.swift in Sources */,
+				00E239782ACC4E9E005D79C6 /* HTTPClientMock.swift in Sources */,
 				009BAE872ACAE4BE0033AABF /* RentalsEndpointTest.swift in Sources */,
+				00E2397A2ACC53D8005D79C6 /* RentalsServiceTests.swift in Sources */,
+				00E2397C2ACC53ED005D79C6 /* RentalsServiceMock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

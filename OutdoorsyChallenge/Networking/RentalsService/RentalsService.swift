@@ -7,7 +7,11 @@
 
 import Foundation
 
-final class RentalsService {
+protocol RentalsServiceProtocol {
+    func fetchRentals(filterKeywords: [String], pageLimit: UInt, pageOffset: UInt) async throws -> [Rental]
+}
+    
+final class RentalsService: RentalsServiceProtocol {
     let client: HTTPClientProtocol
     
     init(client: HTTPClientProtocol) {
