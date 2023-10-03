@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "C886607F-9741-4E3D-BA69-E35BEE7A7842",
+      "name" : "Configuration 1",
+      "options" : {
+        "testExecutionOrdering" : "random"
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:OutdoorsyChallenge.xcodeproj",
+        "identifier" : "009BAE582ACAD9690033AABF",
+        "name" : "OutdoorsyChallengeTests"
+      }
+    }
+  ],
+  "version" : 1
+}

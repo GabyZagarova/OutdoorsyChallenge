@@ -63,6 +63,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		005E11662ACCB53A00E55878 /* OutdoorsyChallenge.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = OutdoorsyChallenge.xctestplan; sourceTree = "<group>"; };
 		009BAE492ACAD9680033AABF /* OutdoorsyChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OutdoorsyChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		009BAE4C2ACAD9680033AABF /* OutdoorsyChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutdoorsyChallengeApp.swift; sourceTree = "<group>"; };
 		009BAE502ACAD9690033AABF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -133,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				009BAE4B2ACAD9680033AABF /* OutdoorsyChallenge */,
+				005E11662ACCB53A00E55878 /* OutdoorsyChallenge.xctestplan */,
 				009BAE5C2ACAD9690033AABF /* OutdoorsyChallengeTests */,
 				009BAE662ACAD9690033AABF /* OutdoorsyChallengeUITests */,
 				009BAE4A2ACAD9680033AABF /* Products */,

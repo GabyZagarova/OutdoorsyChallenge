@@ -6,8 +6,28 @@
 	<dict>
 		<key>OutdoorsyChallenge.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>009BAE482ACAD9680033AABF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>009BAE582ACAD9690033AABF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>009BAE622ACAD9690033AABF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
