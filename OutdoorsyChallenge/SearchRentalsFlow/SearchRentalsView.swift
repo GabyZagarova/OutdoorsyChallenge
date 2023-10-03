@@ -16,6 +16,8 @@ struct SearchRentalsView: View {
     
     @Environment(\.currentTheme) private var currentTheme: UITheme
     @Bindable private var viewModel: SearchRentalsViewModel
+    @FocusState private var fieldIsFocused: Bool
+    private var shouldScrollToTop: Bool = false
     
     var body: some View {
         VStack(alignment: .leading, content: {
@@ -35,10 +37,19 @@ struct SearchRentalsView: View {
                     }
                 })
         }
+        .safeAreaInset(edge: .bottom) {
+            Text(viewModel.totalCountDisplayString)
+                .font(currentTheme.typography.description)
+                .foregroundStyle(currentTheme.colors.primary)
+                .frame(maxWidth: .infinity, alignment: .center)
+        }
         .onAppear {
             Task {
-                await viewModel.loadSearchResult()
+                await viewModel.initialLoad()
             }
+        }
+        .onTapGesture {
+            fieldIsFocused = false
         }
     }
     
@@ -50,11 +61,13 @@ struct SearchRentalsView: View {
                 submitLabel: .search,
                 onSubmitAction: {
                     Task {
-                        await viewModel.loadSearchResult()
+                        await viewModel.loadForSearchKey()
+                        fieldIsFocused = false
                     }
                 }),
             text: $viewModel.searchInput
         )
+        .focused($fieldIsFocused)
         .padding([.leading, .trailing], currentTheme.spacing.large)
     }
     
@@ -72,27 +85,29 @@ struct SearchRentalsView: View {
     @ViewBuilder
     private var resultsListView: some View {
         errorMessageView
-        List(viewModel.rentals, id: \.id) { rental in
-            RentalItemView(
-                viewModel: .init(
-                    imageURL: rental.imageURL,
-                    title: rental.name,
-                    description: rental.description
-                )
-            )
-            .listRowSeparator(.hidden)
-        }
-        .listStyle(.plain)
-        .refreshable {
-            Task {
-                await viewModel.refresh()
+        ScrollView(.vertical) {
+            LazyVStack {
+                ForEach(Array(viewModel.rentals.enumerated()), id: \.1.id) { (index, rental) in
+                    RentalItemView(
+                        viewModel: .init(
+                            imageURL: rental.imageURL,
+                            title: rental.name,
+                            description: rental.description
+                        )
+                    )
+                    .onAppear {
+                        viewModel.requestMoreItemsIfNeeded(index: index)
+                    }
+                }
             }
+            .scrollTargetLayout()
         }
+        .padding([.leading, .trailing])
     }
 }
 
 private enum Localisation {
-    fileprivate static let placeholderText = "Enter filter key here"
+    fileprivate static let placeholderText = "Enter filter key words here"
 }
 
 #Preview {

@@ -7,8 +7,8 @@
 
 import SwiftUI
 
-// TODO: - Could be split in files
-// TODO: - USe custom colors and fonts - remove SwiftUI import - make it more reusable
+// TODO: Could be split in files
+// TODO: Use custom colors and fonts - remove SwiftUI import - make it more reusable
 
 // MARK: - Design System definition
 protocol UITheme {

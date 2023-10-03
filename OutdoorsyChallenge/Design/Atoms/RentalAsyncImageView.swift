@@ -21,8 +21,6 @@ private enum Constants {
 struct RentalAsyncImageView: View {
     let imageURL: URL?
 
-    private let placeholderImage = Image("rental-placeholder")
-
     var body: some View {
         AsyncImage(url: imageURL) { image in
             image
@@ -32,22 +30,23 @@ struct RentalAsyncImageView: View {
                     height: Constants.imageViewHeight
                 )
                 .cornerRadius(Constants.cornerRadius)
-                .scaledToFit()
         } placeholder: {
-            placeholderImageView
+           placeholderImageView
         }
     }
         
     @ViewBuilder
     private var placeholderImageView: some View {
-        placeholderImage   
-            .resizable()
-            .frame(
-                width: Constants.imageViewWidth,
-                height: Constants.imageViewHeight
-            )
-            .cornerRadius(Constants.cornerRadius)
-            .scaledToFit()
+        ZStack {
+            Rectangle()
+                .fill(.gray)
+                .cornerRadius(Constants.cornerRadius)
+                .frame(
+                    width: Constants.imageViewWidth,
+                    height: Constants.imageViewHeight
+                )
+            Image(systemName: "photo")
+        }
     }
 }
 

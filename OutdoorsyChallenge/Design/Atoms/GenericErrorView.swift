@@ -31,5 +31,5 @@ struct GenericErrorView: View {
 }
 
 #Preview {
-    GenericErrorView(message: .init())
+    GenericErrorView()
 }

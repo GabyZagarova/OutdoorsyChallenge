@@ -9,8 +9,9 @@ import Foundation
 
 extension RentalsService {
     
-    struct RentalsResponseRootDTO: Decodable {
-        let data: [RentalDTO]
+    struct RentalsResponseRootDTO {
+        let rentals: [RentalDTO]
+        let totalCount: UInt
     }
 
     struct RentalDTO {
@@ -21,6 +22,26 @@ extension RentalsService {
         let imageURLString: String
         // TODO: Maybe the mobile app should display only available rentals
         let unavailable: Bool
+    }
+}
+
+extension RentalsService.RentalsResponseRootDTO: Decodable {
+    
+    private enum RootCodingKeys: String, CodingKey {
+        case rentals = "data"
+        case meta = "meta"
+    }
+    
+    private enum MetaCodingKeys: String, CodingKey {
+        case totalCount = "total"
+    }
+    
+    init(from decoder: Decoder) throws {
+        let container = try decoder.container(keyedBy: RentalsService.RentalsResponseRootDTO.RootCodingKeys.self)
+        rentals = try container.decode([RentalsService.RentalDTO].self, forKey: .rentals)
+
+        let metaContainer = try container.nestedContainer(keyedBy: RentalsService.RentalsResponseRootDTO.MetaCodingKeys.self, forKey: .meta)
+        totalCount = try metaContainer.decode(UInt.self, forKey: .totalCount)
     }
 }
 

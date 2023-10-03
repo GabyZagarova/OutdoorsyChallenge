@@ -23,7 +23,7 @@ struct RentalItemView: View {
     private let viewModel: ViewModel
     
     var body: some View {
-        HStack(alignment: .center) {
+        HStack {
             RentalAsyncImageView(imageURL: viewModel.imageURL)
             
             Spacer()
@@ -35,7 +35,6 @@ struct RentalItemView: View {
             )
             
             Spacer()
-                .frame(width: currentTheme.spacing.small)
         }
     }
 }
@@ -50,6 +49,11 @@ struct RentalItemView: View {
         RentalItemView(viewModel: .init(
             title: "Caravan rental title",
             description: "Caravan rental very very very very very very ver very very ver very very ver very ver very ver very ver long description"
+        ))
+        
+        RentalItemView(viewModel: .init(
+            title: "Title",
+            description: "Description"
         ))
     }
 }

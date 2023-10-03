@@ -18,6 +18,7 @@ struct Rental {
 }
 
 extension Rental: Identifiable { }
+extension Rental: Hashable { }
 
 extension Rental {
     

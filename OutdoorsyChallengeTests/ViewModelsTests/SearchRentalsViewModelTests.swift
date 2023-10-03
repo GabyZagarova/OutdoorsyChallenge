@@ -18,14 +18,15 @@ final class SearchRentalsViewModelTests: XCTestCase {
         rentalsService = RentalsServiceMock()
         sut = SearchRentalsViewModel(rentalsService: rentalsService)
     }
-
+    
     func testOnAppearNoResults() async {
         mockDependencyResult(result: [], error: false)
-        await sut.loadSearchResult()
+        await sut.initialLoad()
 
         XCTAssertEqual(sut.searchInput, "")
         
         XCTAssertEqual(sut.rentals.count, 0)
+        XCTAssertEqual(sut.totalCountDisplayString, "0/0")
         XCTAssertEqual(sut.isLoading, false)
         XCTAssertEqual(sut.errorMessage, nil)
     }
@@ -35,23 +36,24 @@ final class SearchRentalsViewModelTests: XCTestCase {
                                       Rental.randomRental(),
                                       Rental.randomRental()],
                              error: false)
-        await sut.loadSearchResult()
+        await sut.initialLoad()
 
         XCTAssertEqual(sut.searchInput, "")
         
         XCTAssertEqual(sut.rentals.count, 3)
+        XCTAssertEqual(sut.totalCountDisplayString, "3/3")
         XCTAssertEqual(sut.isLoading, false)
         XCTAssertEqual(sut.errorMessage, nil)
     }
     
     func testOnAppearWithError() async {
         mockDependencyResult(result: [], error: true)
-
-        await sut.loadSearchResult()
+        await sut.initialLoad()
 
         XCTAssertEqual(sut.searchInput, "")
 
         XCTAssertEqual(sut.rentals.count, 0)
+        XCTAssertEqual(sut.totalCountDisplayString, "")
         XCTAssertEqual(sut.isLoading, false)
         XCTAssertEqual(sut.errorMessage, "Something else went wrong.")
     }
@@ -64,34 +66,19 @@ final class SearchRentalsViewModelTests: XCTestCase {
             XCTAssertEqual(searchKeys[0], "Search")
             XCTAssertEqual(searchKeys[1], "key")
 
-            return [Rental.randomRental(),
+            return ([Rental.randomRental(),
                     Rental.randomRental(),
-                    Rental.randomRental()]
+                    Rental.randomRental()], 3)
         }
         
         sut.searchInput = searchKeys
         
-        await sut.loadSearchResult()
+        await sut.initialLoad()
         
         XCTAssertEqual(sut.searchInput, "Search key")
 
         XCTAssertEqual(sut.rentals.count, 3)
-        XCTAssertEqual(sut.isLoading, false)
-        XCTAssertEqual(sut.errorMessage, nil)
-    }
-    
-    func testRefresh() async {
-        mockDependencyResult(result: [Rental.randomRental(),
-                                      Rental.randomRental(),
-                                      Rental.randomRental()],
-                             error: false)
-        sut.searchInput = "Search key"
-
-        await sut.refresh()
-        
-        XCTAssertEqual(sut.searchInput, "Search key")
-
-        XCTAssertEqual(sut.rentals.count, 3)
+        XCTAssertEqual(sut.totalCountDisplayString, "3/3")
         XCTAssertEqual(sut.isLoading, false)
         XCTAssertEqual(sut.errorMessage, nil)
     }
@@ -106,7 +93,7 @@ private extension SearchRentalsViewModelTests {
                 throw expectedError
             }
         
-            return result
+            return (rentals: result, totalCount: UInt(result.count))
         }
     }
 }
